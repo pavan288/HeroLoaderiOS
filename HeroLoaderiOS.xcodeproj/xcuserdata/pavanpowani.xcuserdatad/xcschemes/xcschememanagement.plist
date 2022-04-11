@@ -4,10 +4,43 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>HeroLoader.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>HeroLoaderiOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>27DC775128044E14002089BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27DC776728044E16002089BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27DC777128044E16002089BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27DC778F28044EAC002089BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>27DC779628044EAD002089BB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
