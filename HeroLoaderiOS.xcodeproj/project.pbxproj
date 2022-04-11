@@ -24,6 +24,7 @@
 		27DC77A828044EC4002089BB /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC77A728044EC4002089BB /* HeroStats.swift */; };
 		27DC77AA28044EDA002089BB /* URLSessionAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC77A928044EDA002089BB /* URLSessionAPI.swift */; };
 		27DC77AC28044EEC002089BB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DC77AB28044EEC002089BB /* ViewModel.swift */; };
+		27DC77AE28048CD2002089BB /* HeroLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DC779028044EAC002089BB /* HeroLoader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27DC77AE28048CD2002089BB /* HeroLoader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +126,7 @@
 				27DC779128044EAC002089BB /* HeroLoader */,
 				27DC779B28044EAD002089BB /* HeroLoaderTests */,
 				27DC775328044E14002089BB /* Products */,
+				27DC77AD28048CD2002089BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,6 +192,13 @@
 				27DC779C28044EAD002089BB /* HeroLoaderTests.swift */,
 			);
 			path = HeroLoaderTests;
+			sourceTree = "<group>";
+		};
+		27DC77AD28048CD2002089BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -724,6 +734,7 @@
 		27DC77A028044EAD002089BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -747,6 +758,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -758,6 +771,7 @@
 		27DC77A128044EAD002089BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -781,6 +795,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos macosx iphonesimulator iphoneos driverkit appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
