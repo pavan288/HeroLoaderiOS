@@ -5,7 +5,7 @@
 //  Created by Pavan Powani on 11/04/22.
 //
 
-import HeroLoader
+import iOSHeroLoader
 import UIKit
 
 class ViewController: UIViewController {
