@@ -62,6 +62,16 @@
                ReferencedContainer = "container:HeroLoaderiOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "27608E5628049140003FDC46"
+               BuildableName = "iOSHeroLoaderTests.xctest"
+               BlueprintName = "iOSHeroLoaderTests"
+               ReferencedContainer = "container:HeroLoaderiOS.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

@@ -1,14 +1,14 @@
 //
-//  HeroLoaderTests.swift
-//  HeroLoaderTests
+//  MacHeroLoaderTests.swift
+//  MacHeroLoaderTests
 //
 //  Created by Pavan Powani on 11/04/22.
 //
 
 import XCTest
-@testable import HeroLoader
+@testable import MacHeroLoader
 
-class HeroLoaderTests: XCTestCase {
+class MacHeroLoaderTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
